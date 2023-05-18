@@ -20,7 +20,7 @@ void addNode() {
 	nodeBaru->noMhs = nim;
 	nodeBaru->name = nama;
 
-	if (START == NULL || nim <= START->noMhs{
+	if (START == NULL || nim <= START->noMhs){
 		if (START != NULL && nim == START->noMhs)
 		{
 			cout << "NIM sudah ada" << endl;
@@ -35,7 +35,7 @@ void addNode() {
 	Node* previous = START;
 	Node* current = START;
 
-	while ((curent != NULL) && (nim >= current->noMhs))
+	while ((current!= NULL) && (nim >= current->noMhs))
 	{
 		if (nim == current->noMhs)
 		{
